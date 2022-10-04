@@ -16,4 +16,8 @@
 
 ## Пример контракта с ABI
 Адрес - 0xED83A4E878E496ec1C84BdBbbC50c6657181F906
+
 ABI - ./abi.json
+
+## subgraph for indexing all blocks data
+https://thegraph.com/hosted-service/subgraph/kybernetwork/ethereum-blocks
