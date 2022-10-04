@@ -1,16 +1,17 @@
-specVersion: 0.0.1
+specVersion: 0.0.4
 schema:
   file: ./schema.graphql
 dataSources:
-  - kind: ethereum
+  - kind: ethereum/contract
     name: Contract
     network: mainnet
     source:
       address: "0xED83A4E878E496ec1C84BdBbbC50c6657181F906"
       abi: Contract
+      startBlock: 1
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.5
+      apiVersion: 0.0.6
       language: wasm/assemblyscript
       entities:
         - OwnerSet

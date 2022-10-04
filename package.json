@@ -8,6 +8,8 @@
     "create-local": "graph create --node http://localhost:8020/ azgatg/test_opal",
     "remove-local": "graph remove --node http://localhost:8020/ azgatg/test_opal",
     "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 azgatg/test_opal",
+    "debug-local": "graph deploy --debug --node http://localhost:8020/ --ipfs http://localhost:5001 azgatg/test_opal ",
+    "watch-local": "graph deploy --watch --debug --node http://localhost:8020/ --ipfs http://localhost:5001 azgatg/test_opal ",
     "test": "graph test"
   },
   "dependencies": {
